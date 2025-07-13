@@ -43,8 +43,9 @@ nav ul{
     background-color: transparent;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     margin-top: 50px;
-    
+    gap: 40px;
 }
 
 .container{
@@ -83,3 +84,25 @@ nav ul{
 .container .box.bb-0{
     border-bottom: 0;
 }   
+
+
+#reset {
+    width: 80px;
+    height: 30px;
+    background-color: #7b57ff;
+    transition-duration: .2s;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
+    transition: all .6s ease;
+}
+
+#reset:hover {
+  background-color: #9173ff;
+  box-shadow: 0 10px 15px -3px #977ef3, 0 4px 6px -2px #977ef3;
+  transition-duration: .2s;
+}
+
