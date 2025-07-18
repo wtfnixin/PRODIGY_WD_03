@@ -54,7 +54,7 @@ nav ul{
     grid-template-rows: repeat(3, 10vw);
     margin: auto;
     font-family: sans-serif ;
-   
+    padding-left: 21.5vw;
     
 }
 .container .box{
@@ -98,6 +98,8 @@ nav ul{
     border-radius: 20px;
     box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
     transition: all .6s ease;
+    margin-top:10vw ;
+    margin-right: 10vw;
 }
 
 #reset:hover {
@@ -105,4 +107,11 @@ nav ul{
   box-shadow: 0 10px 15px -3px #977ef3, 0 4px 6px -2px #977ef3;
   transition-duration: .2s;
 }
-
+.gameInfo{
+    padding-right: 10vw ;
+    padding-top: 5vw;
+}
+.gameInfo div span {
+    padding-right: 10vw;
+    padding-bottom: 10vw;
+}
