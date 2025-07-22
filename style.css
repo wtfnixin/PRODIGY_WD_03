@@ -65,7 +65,15 @@ nav ul {
   background-color: rgba(133, 146, 146, 0.281);
 }
 .imgbox {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.5s ease;
+}
+.imgbox.show {
+  position: relative;
+  opacity: 1;
+  transform: scale(1);
 }
 .container .box.br-0 {
   border-right: 0;
@@ -109,6 +117,7 @@ nav ul {
   padding-bottom: 3vw;
   display: inline-block;
   font-size: 2vw;
+  margin-left: 2vw;
 }
 .gameInfo div button {
     margin-left: 2vw;
