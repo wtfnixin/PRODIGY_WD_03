@@ -91,4 +91,6 @@ document.getElementById("reset").addEventListener("click", () => {
   isgameover = false;
   document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
   document.querySelector(".imgbox").classList.remove("show");
+  document.querySelector(".draw-imgbox").classList.remove("show");
+
 });
